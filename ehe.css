@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.asıl {
+    color: rgb(236, 158, 240);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('tokyo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.asıl a {
+    color: rgb(236, 158, 240);
+}
+.asıl h1 {
+    font-size: 42px;
+}
+.asıl p {
+    font-size: 25px;
+}
+.buton {
+    display: inline-block;
+    border: 1px solid rgb(236, 158, 240);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.buton:hover {
+    background-color: rgb(236, 158, 240);
+    color: aliceblue;
+}
+.p {
+    background-color: rgb(236, 158, 240);
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.ww {
+    color: rgb(236, 158, 240);
+    padding: 15px;
+    font-family: sans-serif;
+}
+.cc  {
+    width: 33%;
+    background-color: rgb(236, 158, 240);
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.pp {
+    width: 33%;
+    color: rgb(236, 158, 240);
+    padding: 15px;
+    font-family: sans-serif;
+}
+.cp {
+    width: 33%;
+    background-color: rgb(236, 158, 240);
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.all {
+    display: inline-flex;
+}
